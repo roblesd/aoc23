@@ -94,12 +94,6 @@ class Hand():
 def day7p1():
     hands = []
     # (Type, hand, bid)
-    # lines = ["77777 900"]
-    # lines = ["KQJ53 367",
-    #         "65T2J 607",
-    #         "QA873 1",
-    #         "KQJ43 1"
-    #         ]
     for line in lines:
         #Get hand and bid from line
         hand, bid = line.strip().split()
